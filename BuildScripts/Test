@@ -1,0 +1,5 @@
+docker run --rm \
+    -v /Users/wanichunsinpitak/Documents/gg/learning/code-with-create-react-app/my-sample:/app \
+    -w="/app" \
+    node:current-slim \
+    yarn run test
