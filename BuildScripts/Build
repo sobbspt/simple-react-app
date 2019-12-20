@@ -3,3 +3,6 @@ docker run --rm \
     -w="/app" \
     node:current-slim \
     yarn run build
+
+ls -la
+ls -la build
